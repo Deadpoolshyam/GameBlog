@@ -1,0 +1,95 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #f6f6f6;
+}
+
+a {
+    all: unset;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+    background: #fff;
+    color: #606060;
+    font-weight: 600;
+    align-items: center;box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.next_tabs {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.movie_cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.card {
+    width: 220px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.imgs {
+    width: 100%;
+    height: 150px;
+    border-radius: 16px;
+    object-fit: cover;
+    object-position: top;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.moviename {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    color: #374557;
+    text-shadow: 1px 1px 2px #878f9a;
+}
+
+.moviepara {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: #878f9a;
+    /* text-shadow: 1px 1px 2px #374557; */
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.more {
+    display: flex;
+    justify-content: end;
+    color: #878f9a;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}

@@ -1,0 +1,131 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #f6f6f6;
+}
+
+a {
+    all: unset;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+    background: #fff;
+    color: #606060;
+    font-weight: 600;
+    align-items: center;box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+
+.below_data {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.next_tabs {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.top_inputs, .table {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 9px 95px rgb(0 0 0 / 5%);
+    align-items: center;
+    margin: 1rem;
+    max-width: 800px;
+}
+
+.form_fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form_field {
+    width: calc(100% / 2 - 20px);
+}
+
+.form_field input, .form_field .textarea, .form_field .btn{
+    width: 100%;
+    height: 2rem;
+    border-radius: 10px;
+    border: 3px solid #0000000d;
+}
+
+.form_field input:focus, .form_field .textarea:focus {
+    border: 3px solid #0000000d;
+    outline: 0;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: .5rem;
+}
+
+.table_head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 3px solid #0000000d;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.form_field .btn {
+    background: #5356FB;
+    color: #fff;
+    padding: .8rem;
+}
+
+.data_tb {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    border: 3px solid #0000000d;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.imgcircle {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+/* table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 3px solid #0000000d;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: left;
+  } */
+
+  .field_content .fas {
+    margin-left: .5rem;
+    color: #5356FB;
+  }
